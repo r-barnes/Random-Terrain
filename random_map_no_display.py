@@ -25,4 +25,4 @@ time_before = time.time()
 #coordinates = ValueNoise2(GAME_WIDTH/SCALING,GAME_HEIGHT/SCALING)
 coordinates = DiamondSquare(513)
 
-print 'It took', time.time()-time_before, 'seconds to generate the heightmap'
+print('It took {0} seconds to generate the heightmap'.format(time.time()-time_before))
