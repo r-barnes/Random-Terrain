@@ -10,7 +10,7 @@ from _map_generating_methods.value_noise         import * #@UnusedWildImport
 from _map_generating_methods.diamond_square      import * #@UnusedWildImport
 
 
-GAME_WIDTH = 640
+GAME_WIDTH  = 640
 GAME_HEIGHT = 640
 
 SCALING = 2 #The size of the generated map, 3 is best, 2 works, 1 breaks the system (when displaying it)
