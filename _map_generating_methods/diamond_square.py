@@ -57,7 +57,7 @@ def GenerateNoise(GAME_WIDTH):
         #
         #c     d
         #
-        halfStep = stepSize/2
+        halfStep = stepSize//2
         x = 0
         while x < w-1:
             y = 0
@@ -67,7 +67,7 @@ def GenerateNoise(GAME_WIDTH):
                 c = sample(x,y+stepSize) #Bottom-left
                 d = sample(x+stepSize,y+stepSize) #Bottom-right
                 
-                middle_point = (a+b+c+d)/4 + scaling(scale,stepSize)
+                middle_point = (a+b+c+d)//4 + scaling(scale,stepSize)
                 
                 setSample(x+halfStep,y+halfStep,middle_point)
                 
@@ -110,7 +110,7 @@ def GenerateNoise(GAME_WIDTH):
             
             x += stepSize
         
-        stepSize /= 2
+        stepSize //= 2
         #scale *= scale
         scale *= 1.6
     
