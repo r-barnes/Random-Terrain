@@ -16,16 +16,16 @@ from _map_generating_methods.diamond_square import * #@UnusedWildImport
 
 
 #Init
-WHITE = (255,255,255)
-BLACK = (0,0,0)
-WATER = (0,148,255)
+WHITE     = (255,255,255)
+BLACK     = (0,0,0)
+WATER     = (0,148,255)
 DEEPWATER = (0,0,255)
-SAND = (255,178,127)
-GRASS = (0,255,0)
-FORREST = (0,127,14)
-STONE = (64,64,64)
+SAND      = (255,178,127)
+GRASS     = (0,255,0)
+FORREST   = (0,127,14)
+STONE     = (64,64,64)
 
-GAME_WIDTH = 512
+GAME_WIDTH  = 512
 GAME_HEIGHT = 512
 
 SCALING = 1 #The size of the generated map
