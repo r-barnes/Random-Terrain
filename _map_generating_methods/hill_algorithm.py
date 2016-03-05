@@ -20,7 +20,7 @@ def HillAlgorithm(GAME_WIDTH,GAME_HEIGHT):
     height = 1
     
     for i in range(ITERATIONS):
-        print 'Iteration: ', i
+        print('Iteration: {0}'.format(i))
         
         #Generate a random circle
         radius = random.randrange(2,10)

@@ -28,7 +28,7 @@ def ParticleDeposition(GAME_WIDTH,GAME_HEIGHT):
     
     #Generate the heightmap
     for i in range(iterations):
-        print 'Iteration: ', i
+        print('Iteration: {0}'.format(i))
         
         #Fire the cannon
         radius_cannon = random.randrange(10,20)
