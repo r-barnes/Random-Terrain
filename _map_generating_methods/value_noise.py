@@ -99,7 +99,14 @@ def ValueNoise1(GAME_WIDTH,GAME_HEIGHT):
 
 #------------------------------------------------------------------------------ 
 # Method 2 from http://lodev.org/cgtutor/randomnoise.html
-def ValueNoise2(GAME_WIDTH,GAME_HEIGHT):
+def ValueNoise2(GAME_WIDTH,GAME_HEIGHT, frequency=0.4, octaves=10.0):
+"""
+    GAME_WIDTH  = Width of terrain to generate
+    GAME_HEIGHT = Height of terrain to generate
+    frequency   = A smaller number generates a more "zoomed-in" terrain with fewer details
+    octaves     = Smaller number generates more lakes, 0.4 and 10 gives a good result if 320*240 in 2 seconds
+"""
+
     GAME_WIDTH  = int(GAME_WIDTH)
     GAME_HEIGHT = int(GAME_HEIGHT)
     #------------------------------------------------------------------------------ 
@@ -148,9 +155,6 @@ def ValueNoise2(GAME_WIDTH,GAME_HEIGHT):
     
     #------------------------------------------------------------------------------ 
     # Main
-    
-    frequency = 0.4 #A smaller number generates a more "zoomed-in" terrain with fewer details
-    octaves = 10.0 #Smaller number generates more lakes, 0.4 and 10 gives a good result if 320*240 in 2 seconds
     
     #Generate a list with random noise between 0 and 1
     noise = []
