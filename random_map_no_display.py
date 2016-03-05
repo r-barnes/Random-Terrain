@@ -3,11 +3,11 @@
 import time
 
 #Map generation techniques
-from _map_generating_methods.hill_algorithm import * #@UnusedWildImport
+from _map_generating_methods.hill_algorithm      import * #@UnusedWildImport
 from _map_generating_methods.particle_deposition import * #@UnusedWildImport
-from _map_generating_methods.sparks import * #@UnusedWildImport
-from _map_generating_methods.value_noise import * #@UnusedWildImport
-from _map_generating_methods.diamond_square import * #@UnusedWildImport
+from _map_generating_methods.sparks              import * #@UnusedWildImport
+from _map_generating_methods.value_noise         import * #@UnusedWildImport
+from _map_generating_methods.diamond_square      import * #@UnusedWildImport
 
 
 GAME_WIDTH = 640
