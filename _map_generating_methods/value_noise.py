@@ -100,6 +100,8 @@ def ValueNoise1(GAME_WIDTH,GAME_HEIGHT):
 #------------------------------------------------------------------------------ 
 # Method 2 from http://lodev.org/cgtutor/randomnoise.html
 def ValueNoise2(GAME_WIDTH,GAME_HEIGHT):
+    GAME_WIDTH  = int(GAME_WIDTH)
+    GAME_HEIGHT = int(GAME_HEIGHT)
     #------------------------------------------------------------------------------ 
     #Methods
     def smooth_noise(x, y):
